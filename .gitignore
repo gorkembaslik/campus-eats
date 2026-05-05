@@ -8,6 +8,10 @@
 
 # testing
 /coverage
+/e2e/.auth/
+/test-results/
+/playwright-report/
+.env.test
 
 # next.js
 /.next/

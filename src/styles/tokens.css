@@ -1,0 +1,32 @@
+:root {
+  /* Brand */
+  --red:        #FF3008;
+  --red-dark:   #CC2600;
+  --red-light:  #FFF0EE;
+
+  /* Surfaces */
+  --surface:    #FFFFFF;
+  --surface-2:  #F6F6F6;
+  --surface-3:  #EEEEEE;
+
+  /* Borders */
+  --border:     #E0E0E0;
+
+  /* Text */
+  --text-1:     #191919;
+  --text-2:     #545454;
+  --text-3:     #929292;
+
+  /* Semantic */
+  --success:    #038C4C;
+
+  /* Radius */
+  --radius-sm:  8px;
+  --radius-md:  16px;
+  --radius-lg:  24px;
+
+  /* Shadows */
+  --shadow-sm:  0 1px 4px rgba(0,0,0,0.08);
+  --shadow-md:  0 4px 16px rgba(0,0,0,0.12);
+  --shadow-lg:  0 8px 32px rgba(0,0,0,0.16);
+}

@@ -1,27 +1,36 @@
+@import '../styles/tokens.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  color: var(--text-1);
+  background: var(--surface);
+}
+
+@layer components {
+  /* Restaurant card — hover lifts with shadow transition */
+  .restaurant-card {
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  .restaurant-card:hover {
+    box-shadow: var(--shadow-md) !important;
+    transform: translateY(-3px);
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  /* Hide scrollbar while preserving scroll functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }
