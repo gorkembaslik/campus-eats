@@ -12,8 +12,7 @@ The wallet system mirrors how physical tickets work. A cashier scans a student's
 
 ## Live Demo
 
-> **Deploy the app to Vercel and replace this URL:**
-> `https://YOUR-APP.vercel.app`
+> `https://campus-eats-rho.vercel.app`
 
 ### Demo accounts
 
