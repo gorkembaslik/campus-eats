@@ -146,7 +146,7 @@ export default function Home() {
       >
         <div className="mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold mb-2" style={{ color: 'var(--text-1)' }}>
-            Everything you'd expect. And more.
+            Everything you&apos;d expect. And more.
           </h2>
           <p className="text-base mb-12" style={{ color: 'var(--text-2)' }}>
             Payments, real-time updates, auth, and role-based access — all working together.
