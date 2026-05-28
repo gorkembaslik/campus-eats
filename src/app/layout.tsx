@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { DM_Sans } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { TopNav } from '@/components/nav/TopNav'
 import './globals.css'
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         <TopNav />
         {children}
         <Toaster position="top-center" />
+        <SpeedInsights />
       </body>
     </html>
   )
