@@ -12,7 +12,7 @@ The wallet system mirrors how physical tickets work. A cashier scans a student's
 
 ## Live Demo
 
-> `https://campus-eats-rho.vercel.app`
+> `https://campus-eats-unimi.vercel.app`
 
 ### Demo accounts
 
@@ -70,7 +70,7 @@ For 3D Secure testing: `4000 0025 0000 3155`
 
 **1. Clone and install**
 ```bash
-git clone https://github.com/YOUR_USERNAME/campus-eats.git
+git clone https://github.com/gorkembaslik/campus-eats.git
 cd campus-eats
 npm install
 ```
